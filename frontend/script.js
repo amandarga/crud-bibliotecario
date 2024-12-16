@@ -2,7 +2,7 @@ const form = document.getElementById("cddForm");
 const list = document.getElementById("cddList");
 
 const fetchData = () => {
-    fetch("http://localhost:3000/cdd")
+    fetch("http://localhost:3306/cdd")
         .then((res) => res.json())
         .then((data) => {
             list.innerHTML = "";
@@ -18,7 +18,7 @@ form.addEventListener("submit", (e) => {
     const descricao = document.getElementById("descricao").value;
     const area = document.getElementById("area").value;
 
-    fetch("http://localhost:3000/cdd", {
+    fetch("http://localhost:3306/cdd", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ codigo, descricao, area }),
