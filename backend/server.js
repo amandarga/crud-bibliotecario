@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-const db = require("./db");
+const db = require("./database");
 
 const app = express();
 app.use(express.json());
@@ -48,5 +48,5 @@ app.delete("/cdd/:id", (req, res) => {
 });
 
 // Iniciar servidor
-const PORT = 3000;
+const PORT = 3306;
 app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));
