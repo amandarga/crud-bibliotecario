@@ -20,4 +20,29 @@ cd crud-bibliotecario
 ```
 ### 2. Configurar o banco de dados no MySQL
  - Crie um banco de dados chamado crud-cdd no MySQL
- - Execute o script sql
+ - Execute o script sql "CREATE CDD" disponibilizado para criar a tabela na pasta banco-de-dados.
+ - (OPCIONAL) Execute o script "INSERT CDD" para inserir algumas colunas
+
+### 3. Configurar o backend
+- Instale as dependencias do projeto
+```bash
+cd backend
+npm install
+```
+- Edite o arquivo .env com as configurações do ambiente
+```.env
+DB_HOST=localhost
+DB_USER=seu_usuario_mysql
+DB_PASSWORD=sua_senha_mysql
+DB_NAME=crud_cdd
+```
+O servidor irá rodar na porta 3000
+
+- Inicie o servidor
+```bash
+node server.js
+```
+
+### 4. Execute o frontend
+- Abra o arquivo index.html que está na pasta frontend com o seu navegador
+- Com isso a interface irá se conectar com o backend
