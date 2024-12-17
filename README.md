@@ -14,8 +14,7 @@ Para a execução desse projeto localmente, você precisará instalar:
 
 ### 1. Clonar o repositório
 
----bash
+```bash
 git clone https://github.com/amandarga/crud-bibliotecario.git
 cd crud-bibliotecario
-
----bash
+ls -la
