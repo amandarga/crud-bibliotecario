@@ -18,3 +18,6 @@ Para a execução desse projeto localmente, você precisará instalar:
 git clone https://github.com/amandarga/crud-bibliotecario.git
 cd crud-bibliotecario
 ```
+### 2. Configurar o banco de dados no MySQL
+ - Crie um banco de dados chamado crud-cdd no MySQL
+ - Execute o script sql
