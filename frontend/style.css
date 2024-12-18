@@ -47,7 +47,7 @@ input {
 
 button {
     padding: 10px 15px;
-    background-color: #007bff;
+    background-color:rgb(158, 88, 201);
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -57,7 +57,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: rgb(108, 45, 148);
 }
 
 /* Tabela */
@@ -75,7 +75,7 @@ th, td {
 }
 
 th {
-    background-color: #007bff;
+    background-color: rgb(158, 88, 201);
     color: #fff;
     font-weight: bold;
 }
@@ -94,21 +94,21 @@ td {
 
 /* Botões de ação */
 button.edit {
-    background-color: #ffc107;
+    background-color:rgb(151, 43, 184);
     color: #fff;
 }
 
 button.edit:hover {
-    background-color: #e0a800;
+    background-color: rgb(103, 28, 125);
 }
 
 button.delete {
-    background-color: #dc3545;
+    background-color: rgb(151, 43, 184);
     color: #fff;
 }
 
 button.delete:hover {
-    background-color: #c82333;
+    background-color: rgb(103, 28, 125);
 }
 
 /* Responsividade */
