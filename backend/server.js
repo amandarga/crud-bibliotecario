@@ -48,5 +48,5 @@ app.delete("/cdd/:id", (req, res) => {
 });
 
 // Iniciar servidor
-const PORT = 3306;
+const PORT = 3000;
 app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));
